@@ -143,5 +143,19 @@ form label, legend{
 .enviar:not(:hover){
     background: orange;
     transition: 1s all;
+}
 
+table{
+    margin: 20px 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px ;
 }
