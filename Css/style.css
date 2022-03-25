@@ -270,3 +270,29 @@ th {
 .itens:first-child {
     font-weight: bold;
 }
+
+@media screen and (max-width: 480px) {
+    .caixa,
+    .principal,
+    .conteudo-beneficios,
+    .mapa-conteudo,
+    .produtos .form .fieldset .table {
+        width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+    .lista-beneficios,
+    .imagem-beneficios {
+        width: 100%;
+    }
+    .produtos li {
+        display: inline-table;
+    }
+    .video {
+        width: 200px;
+    }
+}
